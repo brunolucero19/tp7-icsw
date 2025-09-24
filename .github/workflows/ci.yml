@@ -31,7 +31,7 @@ jobs:
       - name: Check Prettier formatting
         run: npm run format:check
 
-      - name: Run unit tests
+      - name: Run all tests
         run: npm run test
         env:
           NODE_OPTIONS: --max-old-space-size=4096
