@@ -4,6 +4,11 @@ import pluginReact from 'eslint-plugin-react';
 import { defineConfig } from 'eslint/config';
 
 export default defineConfig([
+  // Ignorar archivos
+  {
+    ignores: ['dist/**', 'build/**', 'node_modules/**', '*.config.js'],
+  },
+
   // Configs recomendadas primero
   js.configs.recommended,
   pluginReact.configs.flat.recommended,
@@ -19,6 +24,11 @@ export default defineConfig([
     },
     rules: {
       'react/react-in-jsx-scope': 'off', // ahora sí pisa la anterior
+    },
+    settings: {
+      react: {
+        version: 'detect',
+      },
     },
   },
 ]);
