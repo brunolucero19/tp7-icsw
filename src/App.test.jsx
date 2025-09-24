@@ -11,8 +11,6 @@ import { expect, test, afterEach } from 'vitest';
 afterEach(() => {
   cleanup();
 });
-<<<<<<< HEAD
-=======
 
 test('renders duck encyclopedia title', () => {
   render(<App />);
@@ -46,4 +44,3 @@ test('loads ducks when button is clicked', async () => {
   // Verificar que apareció el botón limpiar
   expect(screen.getByText(/Limpiar Lista/i)).toBeInTheDocument();
 });
->>>>>>> 5c0175c7f90efd28459c5a411280c02afe301962
