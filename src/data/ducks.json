@@ -3,7 +3,7 @@
     "id": 1,
     "commonName": "Pato Mallard",
     "scientificName": "Anas platyrhynchos",
-    "image": "/src/assets/ducks/mallard.jpg",
+    "image": "/ducks/mallard.jpg",
     "habitat": "Lagos, estanques y ríos",
     "description": "Es la especie de pato más común y conocida mundialmente."
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "commonName": "Pato Mandarín",
     "scientificName": "Aix galericulata",
-    "image": "/src/assets/ducks/mandarin.jpg",
+    "image": "/ducks/mandarin.jpg",
     "habitat": "Bosques cerca de lagos y ríos",
     "description": "Famoso por su colorido plumaje, especialmente los machos."
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "commonName": "Pato Real",
     "scientificName": "Cairina moschata",
-    "image": "/src/assets/ducks/real.jpg",
+    "image": "/ducks/real.jpg",
     "habitat": "Zonas húmedas tropicales",
     "description": "También conocido como pato criollo, es originario de América."
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "commonName": "Pato Colorado",
     "scientificName": "Anas cyanoptera",
-    "image": "/src/assets/ducks/colorado.jpg",
+    "image": "/ducks/colorado.jpg",
     "habitat": "Lagos y lagunas de agua dulce",
     "description": "Se caracteriza por su coloración rojiza en el plumaje."
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "commonName": "Pato Silbador",
     "scientificName": "Dendrocygna bicolor",
-    "image": "/src/assets/ducks/silbador.webp",
+    "image": "/ducks/silbador.webp",
     "habitat": "Humedales y arrozales",
     "description": "Conocido por su característico silbido y sus largas patas."
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "commonName": "Pato Cuchara",
     "scientificName": "Spatula clypeata",
-    "image": "/src/assets/ducks/cuchara.jpg",
+    "image": "/ducks/cuchara.jpg",
     "habitat": "Lagos poco profundos y marismas",
     "description": "Su pico grande y en forma de cuchara lo hace único."
   }
