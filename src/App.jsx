@@ -23,6 +23,7 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
+        <h1>🦆 Enciclopedia de Patos</h1>
         <p>Descubre las diferentes especies de patos del mundo</p>
       </header>
 
